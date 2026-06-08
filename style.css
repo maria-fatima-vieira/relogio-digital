@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000428, #004e92);
+    font-family: ariel, sans-serif;
+}
+
+.relogio {
+    display: flex;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 40px;
+    border-radius: 15px;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.relogio h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
